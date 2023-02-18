@@ -1,5 +1,5 @@
-/* Aplikasi Penghitung Luas Layang-Layang by Al May Nabith Thufail
-NRP 5010221007 
+/* Aplikasi Kalkulator Luas Layang-Layang by Al May Nabith Thufail
+NRP 5010221007
 Departemen Teknik Sistem dan Industri
 Institut Teknologi Sepuluh Nopember
 Algoritma dan Pemrograman Komputer (D)*/
@@ -22,8 +22,7 @@ int main () {
     printf ("Kamu Telah Memasukkan %.3f Sebagai Diameter 2 Layang-Layang\n\n", diameter_2);
     
     float hasil = ((diameter_1*diameter_2)/2);
-    printf ("Hasil dari Perhitungan Luas Layang-Layang Setelah Input Diameter Adalah:  %.3f\n\n", hasil);
-    
-    printf ("Terima Kasih Sudah Menggunakan Program Kalkulator Layang-Layang by Al May Nabith Thufail");
+    printf ("Hasil dari Perhitungan Luas Layang-Layang Setelah Input Diameter Adalah:  %.3f", hasil);
+   
     return 0;
 }
